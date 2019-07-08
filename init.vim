@@ -33,8 +33,6 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'terryma/vim-multiple-cursors'
 
-Plug 'vim-vdebug/vdebug'
-
 " Initialize plugin system
 call plug#end()
 
@@ -48,6 +46,13 @@ colorscheme iceberg
 
 let g:airline_solarized_bg='dark'
 " -----END ------Default Colorscheme 
+set guifont=Neep\ 18
 set number
 set tabstop=2
+set shiftwidth=2
+set expandtab
 set nolist
+set backspace=indent,eol,start"
+set nobackup
+set noswapfile
+set noundofile
