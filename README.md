@@ -7,6 +7,8 @@
 
  cp init.vim ~/.config/nvim/init.vim
  
+ pip3 install --user pynvim
+ 
  nvim
  :PlugInstall
 
